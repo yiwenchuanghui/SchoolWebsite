@@ -17,6 +17,12 @@ app.get('/application', (req, res) => {
 app.get('/admissions', (req, res) => {
   res.render('pages/admissions');
 });
+app.get('/fee', (req, res) => {
+  res.render('pages/fee');
+});
+app.get('/students-affair', (req, res) => {
+  res.render('pages/students-affair');
+});
 app.get('/course', (req, res) => {
   res.render('pages/course');
 });

@@ -23,6 +23,9 @@ app.get('/fee', (req, res) => {
 app.get('/students-affair', (req, res) => {
   res.render('pages/students-affair');
 });
+app.get('/ib', (req, res) => {
+  res.render('pages/ib');
+});
 app.get('/course', (req, res) => {
   res.render('pages/course');
 });

@@ -2067,6 +2067,10 @@ span.comment-time {padding-right: 3px; position: relative;}
     padding: 110px 0;
     position: relative;
 }
+.breadcrumb-banner-area.only-bgcolor{
+    background:none;
+    padding: 70px 0;
+}
 .breadcrumb-banner-area.fixed-bg {background: url("img/slider/3.jpg") no-repeat fixed top center / cover}
 .breadcrumb-banner-area.no-bg {background: rgba(0, 0, 0, 0) none repeat scroll 0 0;}
 .breadcrumb-text {z-index: 9; position: relative;}

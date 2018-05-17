@@ -1896,17 +1896,21 @@ body {
 .duration-title {
     color: #ffffff;
     font-size: 18px;
+    overflow: hidden;
 }
 .duration-text {background: #f6f6f6 none repeat scroll 0 0; color: #4c4c4c;}
 .course-duration .text {
     border-bottom: 1px solid #86bc42;
     display: block;
     padding: 15px 0;
+    overflow: hidden;
 }
 .course-duration .text span {
     display: inline-block;
     text-align: center;
+    
     width: 192px;
+    vertical-align: baseline !important;
 }
 .course-duration .text span.text-right {
     border: 0 none;
@@ -2644,4 +2648,40 @@ h4.ttms-subtitle {
     margin-bottom: 30px;
     text-align: center;
     font-size: 24px;
+}
+
+.ttms-text-right {
+        
+    clear: both;
+    text-align: right;
+    float: right;    
+    margin-right: 40px !important;
+    width: 600px !important;
+}
+.ttms-time{
+    background: #222F3E;
+    color: #ffffff;
+    padding: 100px 0;
+}
+.ttms-time p{
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+}
+.ttms-time p strong{
+    color:#86bc42;
+}
+.green{
+    color:#86bc42;
+}
+
+.ttms-fee .button-default{
+    background: #86bc42;
+    color: white;
+}
+strong{
+    font-weight: bold;
+}
+.bold{
+    font-weight: bold;
 }

@@ -17,6 +17,9 @@ app.get('/application', (req, res) => {
 app.get('/admissions', (req, res) => {
   res.render('pages/admissions');
 });
+app.get('/course', (req, res) => {
+  res.render('pages/course');
+});
 
 app.listen(5555)
 

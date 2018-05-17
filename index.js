@@ -26,6 +26,9 @@ app.get('/students-affair', (req, res) => {
 app.get('/course', (req, res) => {
   res.render('pages/course');
 });
+app.get('/contact', (req, res) => {
+  res.render('pages/contact');
+});
 
 app.listen(5555)
 

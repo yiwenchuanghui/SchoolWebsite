@@ -169,7 +169,7 @@ body {
     transition: all 0.3s ease 0s
 }
 .section-margin {margin: 120px 0 140px 0}
-.section-padding {padding: 120px 0}
+.section-padding {padding: 80px 0}
 .section-bottom-padding {padding: 0 0 120px 0}
 .section-top-padding {padding: 120px 0 0 0}
 .section-title {
@@ -190,7 +190,7 @@ body {
     font-weight: 400;
     margin-bottom: 24px;
 }
-.section-title-wrapper { margin-bottom: 87px; position: relative;}
+.section-title-wrapper { margin-bottom: 50px; position: relative;}
 .section-title-wrapper:before {
     background: #2d3e50 none repeat scroll 0 0;
     bottom: 0;
@@ -2707,4 +2707,17 @@ strong{
 }
 .bold{
     font-weight: bold;
+}
+#course-structure{
+    background-color: #e3e3e3;
+}
+
+table tr th{
+    background-color: #86bc42;
+    color:#fff;
+    font-weight: bold;
+        width: 20%;
+}
+table.center tr{
+    text-align: center;
 }

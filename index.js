@@ -26,6 +26,9 @@ app.get('/students-affair', (req, res) => {
 app.get('/ib', (req, res) => {
   res.render('pages/ib');
 });
+app.get('/spa', (req, res) => {
+  res.render('pages/spa');
+});
 app.get('/course', (req, res) => {
   res.render('pages/course');
 });

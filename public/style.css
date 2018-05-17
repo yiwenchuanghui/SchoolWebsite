@@ -1912,6 +1912,25 @@ body {
     width: 192px;
     vertical-align: baseline !important;
 }
+.course-duration .text h5 {
+    margin-left: 60px;
+    font-style: normal;
+    font-size: 16px;
+    color: #6f6f6f;
+    font-weight: 300;
+    margin-bottom: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.course-duration .text h6 {
+    margin-left: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 200;
+    font-style: normal;
+    color: #777;
+}
+
+
 .course-duration .text span.text-right {
     border: 0 none;
     display: inline-block;

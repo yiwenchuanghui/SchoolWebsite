@@ -1,0 +1,28 @@
+{
+  "name": "schoolwebsite",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yiwenchuanghui/SchoolWebsite.git"
+  },
+  "keywords": [
+    "EJS",
+    "Express",
+    "NodeJS"
+  ],
+  "author": "Dastan Zhanibek",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yiwenchuanghui/SchoolWebsite/issues"
+  },
+  "homepage": "https://github.com/yiwenchuanghui/SchoolWebsite#readme",
+  "dependencies": {
+    "ejs": "^2.5.9",
+    "express": "^4.16.3"
+  }
+}
